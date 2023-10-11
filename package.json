@@ -18,6 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.2.1",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
