@@ -1,7 +1,7 @@
 {
   "name": "@anthony-j-castro/eslint-config",
   "version": "0.0.0",
-  "description": "Reusable ESLint config for projects by @anthony-j-castro.",
+  "description": "Reusable ESLint config for React & TypeScript projects by @anthony-j-castro.",
   "main": "index.js",
   "scripts": {
     "lint": "eslint ."
