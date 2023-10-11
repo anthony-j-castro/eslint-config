@@ -2,6 +2,11 @@ name: Create release
 
 on:
   workflow_dispatch:
+    inputs:
+      dry-run:
+        type: boolean
+        description: Run semantic-release with dry-run flag
+        default: true
 
 jobs:
   release:
@@ -15,6 +20,6 @@ jobs:
         with:
           node-version: 18
       - run: npm ci
-      - run: npx semantic-release
+      - run: npx semantic-release ${{github.event.inputs.dry-run == 'true' && '--dry-run' || ''}}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
