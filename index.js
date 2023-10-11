@@ -33,17 +33,6 @@ module.exports = {
       },
     ],
     "no-console": "error",
-    "no-restricted-imports": [
-      "error",
-      {
-        patterns: [
-          {
-            group: ["../*"],
-            message: "Usage of relative parent imports is not allowed.",
-          },
-        ],
-      },
-    ],
     "padding-line-between-statements": [
       "error",
       { blankLine: "always", next: "return", prev: "*" },
