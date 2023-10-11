@@ -17,7 +17,6 @@ module.exports = {
   ],
   parser: "@typescript-eslint/parser",
   plugins: ["@typescript-eslint", "prettier"],
-  root: true,
   rules: {
     "@typescript-eslint/no-unused-vars": "error",
     "import/newline-after-import": "error",
