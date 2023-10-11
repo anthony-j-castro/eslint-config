@@ -56,6 +56,11 @@ module.exports = {
     "sort-imports": ["error", { ignoreDeclarationSort: true }],
   },
   settings: {
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
+      },
+    },
     react: {
       version: "detect",
     },
