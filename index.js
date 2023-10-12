@@ -34,12 +34,12 @@ module.exports = {
     ],
     "no-console": "error",
     "no-restricted-imports": [
-      "error",
+      "warn",
       {
         patterns: [
           {
             group: ["../*"],
-            message: "Usage of relative parent imports is not allowed.",
+            message: "Prefer aliased imports over relative parent imports.",
           },
         ],
       },
