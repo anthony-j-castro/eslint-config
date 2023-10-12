@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/anthony-j-castro/eslint-config/compare/v1.0.2...v1.0.3) (2023-10-12)
+
+
+### Bug Fixes
+
+* Reorder ([#8](https://github.com/anthony-j-castro/eslint-config/issues/8)) ([7662bf9](https://github.com/anthony-j-castro/eslint-config/commit/7662bf981620fce1dea23d88c217ceca756ad9e0))
+
 ## [1.0.2](https://github.com/anthony-j-castro/eslint-config/compare/v1.0.1...v1.0.2) (2023-10-12)
 
 
