@@ -1,14 +1,13 @@
 const config = {
   branches: ["main"],
   plugins: [
-    "@semantic-release/commit-analyzer",
-    "@semantic-release/release-notes-generator",
     [
       "@semantic-release/changelog",
       {
         changelogFile: "CHANGELOG.md",
       },
     ],
+    "@semantic-release/commit-analyzer",
     [
       "@semantic-release/git",
       {
@@ -18,6 +17,8 @@ const config = {
       },
     ],
     "@semantic-release/github",
+    "@semantic-release/npm",
+    "@semantic-release/release-notes-generator",
   ],
 };
 
