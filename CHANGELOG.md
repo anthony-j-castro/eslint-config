@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/anthony-j-castro/eslint-config/compare/v1.0.1...v1.0.2) (2023-10-12)
+
+
+### Bug Fixes
+
+* Use npm package ([#7](https://github.com/anthony-j-castro/eslint-config/issues/7)) ([2d11ddd](https://github.com/anthony-j-castro/eslint-config/commit/2d11ddddd1ba55921dc93164c1df326fd1ebc1e0))
+
 ## [1.0.1](https://github.com/anthony-j-castro/eslint-config/compare/v1.0.0...v1.0.1) (2023-10-12)
 
 
