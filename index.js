@@ -51,6 +51,13 @@ module.exports = {
     "prettier/prettier": "error",
     "react/jsx-no-useless-fragment": "error",
     "react/jsx-sort-props": ["error", { shorthandLast: true }],
+    "react/self-closing-comp": [
+      "error",
+      {
+        component: true,
+        html: true,
+      },
+    ],
     "sort-imports": ["error", { ignoreDeclarationSort: true }],
   },
   settings: {
