@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.0.1...v1.1.0) (2023-11-23)
+
+
+### Features
+
+* Enforce `react/self-closing-comp` rule for components and HTML ([#41](https://github.com/anthony-j-castro/eslint-config/issues/41)) ([74519f7](https://github.com/anthony-j-castro/eslint-config/commit/74519f7a1365daca5c829358202e223186e602e7))
+
 ## [1.0.1](https://github.com/anthony-j-castro/eslint-config/compare/v1.0.0...v1.0.1) (2023-10-12)
 
 
