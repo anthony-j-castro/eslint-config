@@ -5,7 +5,9 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prettier": "prettier . --write",
+    "prettier:ci": "prettier . --check"
   },
   "keywords": [
     "eslint",
@@ -18,6 +20,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@anthony-j-castro/prettier-config": "github:anthony-j-castro/prettier-config#semver:1.0.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.2.6",
