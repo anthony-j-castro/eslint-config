@@ -5,7 +5,9 @@
   "private": true,
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prettier": "prettier . --write",
+    "prettier:ci": "prettier . --check"
   },
   "keywords": [
     "eslint",
