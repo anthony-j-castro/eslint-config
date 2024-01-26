@@ -17,7 +17,7 @@ module.exports = {
     },
   ],
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "prettier"],
+  plugins: ["@typescript-eslint", "prettier", "sort-destructure-keys"],
   rules: {
     "@typescript-eslint/no-unused-vars": "error",
     "import/newline-after-import": "error",
@@ -57,6 +57,10 @@ module.exports = {
         component: true,
         html: true,
       },
+    ],
+    "sort-destructure-keys/sort-destructure-keys": [
+      "error",
+      { caseSensitive: false },
     ],
     "sort-imports": ["error", { ignoreDeclarationSort: true }],
   },
