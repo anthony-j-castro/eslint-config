@@ -1,3 +1,13 @@
+# [1.2.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.1.0...v1.2.0) (2024-01-26)
+
+
+### Features
+
+* Enforce double quotes for strings ([#85](https://github.com/anthony-j-castro/eslint-config/issues/85)) ([0541db9](https://github.com/anthony-j-castro/eslint-config/commit/0541db983b883a8ecf0ff809a09e525326f6c8a9))
+* Enforce sorting of destructured object keys ([#84](https://github.com/anthony-j-castro/eslint-config/issues/84)) ([b21dde6](https://github.com/anthony-j-castro/eslint-config/commit/b21dde663b9d822cd185d41c72add0209bf5708c))
+* Enforce sorting of keys in interfaces and enums ([#87](https://github.com/anthony-j-castro/eslint-config/issues/87)) ([1804301](https://github.com/anthony-j-castro/eslint-config/commit/180430138aa977e5189abba3fdb9e97d7066b44d))
+* Migrate deprecated rules to stylistic plugin ([#86](https://github.com/anthony-j-castro/eslint-config/issues/86)) ([d4afddb](https://github.com/anthony-j-castro/eslint-config/commit/d4afddbfb55ac6a94365886e7ed5a15ed501d56c))
+
 # [1.1.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.0.1...v1.1.0) (2023-11-23)
 
 
