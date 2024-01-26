@@ -6,6 +6,7 @@ module.exports = {
     "plugin:import/typescript",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
+    "plugin:@stylistic/disable-legacy",
     "plugin:prettier/recommended",
   ],
   overrides: [
