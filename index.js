@@ -17,8 +17,18 @@ module.exports = {
     },
   ],
   parser: "@typescript-eslint/parser",
-  plugins: ["@typescript-eslint", "prettier", "sort-destructure-keys"],
+  plugins: [
+    "@stylistic",
+    "@typescript-eslint",
+    "prettier",
+    "sort-destructure-keys",
+  ],
   rules: {
+    "@stylistic/quotes": [
+      "error",
+      "double",
+      { allowTemplateLiterals: false, avoidEscape: true },
+    ],
     "@typescript-eslint/no-unused-vars": "error",
     "import/newline-after-import": "error",
     "import/no-named-as-default": "off",

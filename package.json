@@ -25,6 +25,7 @@
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.2.6",
     "@semantic-release/npm": "11.0.2",
+    "@stylistic/eslint-plugin": "^1.5.4",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.0.0",
@@ -40,6 +41,7 @@
     "typescript": "^5.0.0"
   },
   "peerDependencies": {
+    "@stylistic/eslint-plugin": "^1.5.4",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.0.0",
