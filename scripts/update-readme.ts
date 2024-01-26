@@ -16,6 +16,6 @@ if (!nextVersion) {
 
 const content = fs.readFileSync(README_PATH, "utf8");
 
-const updatedContent = content.replace(INSTALL_SNIPPET_REGEX, "5.6.7.8");
+const updatedContent = content.replace(INSTALL_SNIPPET_REGEX, nextVersion);
 
 fs.writeFileSync(README_PATH, updatedContent);
