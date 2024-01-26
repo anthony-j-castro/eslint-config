@@ -41,6 +41,3 @@ To release a new version:
 3. Review the proposed version number and release notes in the workflow logs.
 4. If everything is correct, repeat steps 1 and 2 but uncheck the "Run with
    dry-run flag" option.
-5. After the "Create release" workflow completes and the new version is created,
-   update the version number in the ["Installation" section](#installation) of
-   this README.
