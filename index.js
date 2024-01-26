@@ -60,7 +60,7 @@ module.exports = {
     ],
     "sort-destructure-keys/sort-destructure-keys": [
       "error",
-      { caseSensitive: false },
+      { caseSensitive: true },
     ],
     "sort-imports": ["error", { ignoreDeclarationSort: true }],
   },
