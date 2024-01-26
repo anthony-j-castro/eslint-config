@@ -6,6 +6,7 @@ module.exports = {
     "plugin:import/typescript",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
+    "plugin:@stylistic/disable-legacy",
     "plugin:prettier/recommended",
   ],
   overrides: [
@@ -24,6 +25,18 @@ module.exports = {
     "sort-destructure-keys",
   ],
   rules: {
+    "@stylistic/jsx-self-closing-comp": [
+      "error",
+      {
+        component: true,
+        html: true,
+      },
+    ],
+    "@stylistic/jsx-sort-props": ["error", { shorthandLast: true }],
+    "@stylistic/padding-line-between-statements": [
+      "error",
+      { blankLine: "always", next: "return", prev: "*" },
+    ],
     "@stylistic/quotes": [
       "error",
       "double",
@@ -54,20 +67,8 @@ module.exports = {
         ],
       },
     ],
-    "padding-line-between-statements": [
-      "error",
-      { blankLine: "always", next: "return", prev: "*" },
-    ],
     "prettier/prettier": "error",
     "react/jsx-no-useless-fragment": "error",
-    "react/jsx-sort-props": ["error", { shorthandLast: true }],
-    "react/self-closing-comp": [
-      "error",
-      {
-        component: true,
-        html: true,
-      },
-    ],
     "sort-destructure-keys/sort-destructure-keys": [
       "error",
       { caseSensitive: true },
