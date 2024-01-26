@@ -14,7 +14,7 @@ Since this config uses various other configs and plugins as peer dependencies,
 we also need to install them:
 
 ```bash
-npm install --save-dev --save-exact @stylistic/eslint-plugin @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks sort-destructure-keys prettier typescript
+npm install --save-dev --save-exact @stylistic/eslint-plugin @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-config-prettier eslint-import-resolver-typescript eslint-plugin-import eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-sort-destructure-keys eslint-plugin-typescript-sort-keys prettier typescript
 ```
 
 Finally, copy and paste this starter config in a new `eslintrc.js` file:
