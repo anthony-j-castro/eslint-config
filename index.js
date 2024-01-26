@@ -23,6 +23,7 @@ module.exports = {
     "@typescript-eslint",
     "prettier",
     "sort-destructure-keys",
+    "typescript-sort-keys",
   ],
   rules: {
     "@stylistic/jsx-self-closing-comp": [
@@ -74,6 +75,16 @@ module.exports = {
       { caseSensitive: true },
     ],
     "sort-imports": ["error", { ignoreDeclarationSort: true }],
+    "typescript-sort-keys/interface": [
+      "error",
+      "asc",
+      { caseSensitive: true, natural: true, requiredFirst: true },
+    ],
+    "typescript-sort-keys/string-enum": [
+      "error",
+      "asc",
+      { caseSensitive: true, natural: true },
+    ],
   },
   settings: {
     "import/resolver": {
