@@ -11,7 +11,7 @@ const args = minimist(process.argv.slice(2));
 const nextVersion = args["next-version"];
 
 if (!nextVersion) {
-  throw new Error("Missing --next-version flag.");
+  throw new Error("The --next-version argument is required.");
 }
 
 const content = fs.readFileSync(README_PATH, "utf8");
