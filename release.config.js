@@ -11,9 +11,21 @@ const config = {
     ],
     "@semantic-release/npm",
     [
+      "@semantic-release/exec",
+      {
+        prepareCmd:
+          "npm run update-readme -- --next-version=${nextRelease.version}",
+      },
+    ],
+    [
       "@semantic-release/git",
       {
-        assets: ["CHANGELOG.md", "package.json", "package-lock.json"],
+        assets: [
+          "CHANGELOG.md",
+          "README.md",
+          "package.json",
+          "package-lock.json",
+        ],
         message:
           "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
       },

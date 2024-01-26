@@ -7,7 +7,8 @@
   "scripts": {
     "lint": "eslint .",
     "prettier": "prettier . --write",
-    "prettier:ci": "prettier . --check"
+    "prettier:ci": "prettier . --check",
+    "update-readme": "ts-node ./scripts/update-readme.ts"
   },
   "keywords": [
     "eslint",
@@ -22,10 +23,12 @@
   "devDependencies": {
     "@anthony-j-castro/prettier-config": "github:anthony-j-castro/prettier-config#semver:1.0.0",
     "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "9.2.6",
     "@semantic-release/npm": "11.0.2",
     "@stylistic/eslint-plugin": "^1.5.4",
+    "@types/minimist": "1.2.5",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint": "^8.0.0",
@@ -37,8 +40,10 @@
     "eslint-plugin-react-hooks": "^4.0.0",
     "eslint-plugin-sort-destructure-keys": "^1.5.0",
     "eslint-plugin-typescript-sort-keys": "^3.1.0",
+    "minimist": "1.2.8",
     "prettier": "^3.0.0",
     "semantic-release": "23.0.0",
+    "ts-node": "10.9.2",
     "typescript": "^5.0.0"
   },
   "peerDependencies": {
