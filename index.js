@@ -24,6 +24,11 @@ module.exports = {
     "sort-destructure-keys",
   ],
   rules: {
+    "@stylistic/jsx-sort-props": ["error", { shorthandLast: true }],
+    "@stylistic/padding-line-between-statements": [
+      "error",
+      { blankLine: "always", next: "return", prev: "*" },
+    ],
     "@stylistic/quotes": [
       "error",
       "double",
@@ -54,13 +59,8 @@ module.exports = {
         ],
       },
     ],
-    "padding-line-between-statements": [
-      "error",
-      { blankLine: "always", next: "return", prev: "*" },
-    ],
     "prettier/prettier": "error",
     "react/jsx-no-useless-fragment": "error",
-    "react/jsx-sort-props": ["error", { shorthandLast: true }],
     "react/self-closing-comp": [
       "error",
       {
