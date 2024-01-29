@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.2.0...v1.3.0) (2024-01-29)
+
+
+### Features
+
+* Enforce consistent brace style for simple arrow function returns ([#91](https://github.com/anthony-j-castro/eslint-config/issues/91)) ([871abd7](https://github.com/anthony-j-castro/eslint-config/commit/871abd77aea2fe6f24f9c8ce1643b8e317ad9f80))
+
 # [1.2.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.1.0...v1.2.0) (2024-01-26)
 
 
