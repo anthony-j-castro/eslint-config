@@ -10,14 +10,7 @@ To install the latest version as a dependency of a project:
 npm install --save-dev "https://github.com/anthony-j-castro/eslint-config.git#semver:1.2.0"
 ```
 
-Plugins and configs will be installed automatically as peer dependencies, but we
-still need to explicitly install some dependencies:
-
-```bash
-npm install --save-dev --save-exact eslint prettier typescript
-```
-
-Finally, copy and paste this starter config in a new `eslintrc.js` file:
+Then, copy and paste this starter config in a new `eslintrc.js` file:
 
 ```javascript
 module.exports = {
