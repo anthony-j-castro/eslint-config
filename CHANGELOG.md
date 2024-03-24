@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.3.0...v1.4.0) (2024-03-24)
+
+
+### Features
+
+* Enforce sorting union and intersection types ([#123](https://github.com/anthony-j-castro/eslint-config/issues/123)) ([49d7eb0](https://github.com/anthony-j-castro/eslint-config/commit/49d7eb0703d8d5a871c31c748e40a53626b6a320))
+
 # [1.3.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.2.0...v1.3.0) (2024-01-29)
 
 
