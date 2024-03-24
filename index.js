@@ -44,6 +44,7 @@ module.exports = {
       { allowTemplateLiterals: false, avoidEscape: true },
     ],
     "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/sort-type-constituents": "error",
     "arrow-body-style": ["error", "as-needed"],
     "import/newline-after-import": "error",
     "import/no-named-as-default": "off",
