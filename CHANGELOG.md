@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/anthony-j-castro/eslint-config/compare/v1.4.0...v1.4.1) (2024-03-26)
+
+
+### Bug Fixes
+
+* Update dependency versions to latest patch versions ([#126](https://github.com/anthony-j-castro/eslint-config/issues/126)) ([91b2330](https://github.com/anthony-j-castro/eslint-config/commit/91b23308373584a1dc7aec62d6427f04d392d71b))
+
 # [1.4.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.3.0...v1.4.0) (2024-03-24)
 
 
