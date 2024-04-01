@@ -46,6 +46,7 @@ module.exports = {
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/sort-type-constituents": "error",
     "arrow-body-style": ["error", "as-needed"],
+    curly: ["error", "all"],
     "import/newline-after-import": "error",
     "import/no-named-as-default": "off",
     "import/no-relative-packages": "error",
