@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.4.1...v1.5.0) (2024-04-01)
+
+
+### Features
+
+* Enable `curly` rule ([#128](https://github.com/anthony-j-castro/eslint-config/issues/128)) ([95ff698](https://github.com/anthony-j-castro/eslint-config/commit/95ff698f8c48a737ea5e2db0a45b9ee09c8ef732))
+
 ## [1.4.1](https://github.com/anthony-j-castro/eslint-config/compare/v1.4.0...v1.4.1) (2024-03-26)
 
 
