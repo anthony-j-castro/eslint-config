@@ -36,6 +36,7 @@ module.exports = {
     "@stylistic/jsx-sort-props": ["error", { shorthandLast: true }],
     "@stylistic/padding-line-between-statements": [
       "error",
+      { blankLine: "always", next: "*", prev: ["case", "default"] },
       { blankLine: "always", next: "break", prev: "*" },
       { blankLine: "always", next: "return", prev: "*" },
     ],
