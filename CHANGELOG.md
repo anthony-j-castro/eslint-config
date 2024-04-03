@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.5.0...v1.6.0) (2024-04-03)
+
+
+### Features
+
+* Enforce a blank line before a `break` statement ([#129](https://github.com/anthony-j-castro/eslint-config/issues/129)) ([bd41251](https://github.com/anthony-j-castro/eslint-config/commit/bd4125166b330103d0dc37a573332ce90e7256ac))
+* Enforce a blank line between `case` and `default` statements ([#130](https://github.com/anthony-j-castro/eslint-config/issues/130)) ([5737609](https://github.com/anthony-j-castro/eslint-config/commit/5737609a9616d9f73822d475291265559e7d323e))
+
 # [1.5.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.4.1...v1.5.0) (2024-04-01)
 
 
