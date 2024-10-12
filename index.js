@@ -24,6 +24,7 @@ module.exports = {
     "prettier",
     "sort-destructure-keys",
     "typescript-sort-keys",
+    "perfectionist",
   ],
   rules: {
     "@stylistic/jsx-self-closing-comp": [
@@ -73,6 +74,7 @@ module.exports = {
         ],
       },
     ],
+    "perfectionist/sort-classes": "error",
     "prettier/prettier": "error",
     "react/jsx-no-useless-fragment": "error",
     "sort-destructure-keys/sort-destructure-keys": [
@@ -96,6 +98,9 @@ module.exports = {
       node: {
         extensions: [".js", ".jsx", ".ts", ".tsx"],
       },
+    },
+    perfectionist: {
+      type: "alphabetical",
     },
     react: {
       version: "detect",
