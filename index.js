@@ -98,6 +98,7 @@ module.exports = {
       },
     ],
     "prettier/prettier": "error",
+    radix: ["error", "always"],
     "react/jsx-no-useless-fragment": "error",
   },
   settings: {
