@@ -35,7 +35,6 @@ module.exports = {
         html: true,
       },
     ],
-    "@stylistic/jsx-sort-props": ["error", { shorthandLast: true }],
     "@stylistic/padding-line-between-statements": [
       "error",
       { blankLine: "always", next: "*", prev: ["case", "default"] },
@@ -48,7 +47,6 @@ module.exports = {
       { allowTemplateLiterals: false, avoidEscape: true },
     ],
     "@typescript-eslint/no-unused-vars": "error",
-    "@typescript-eslint/sort-type-constituents": "error",
     "arrow-body-style": ["error", "as-needed"],
     curly: ["error", "all"],
     "import/newline-after-import": "error",
@@ -102,20 +100,6 @@ module.exports = {
     ],
     "prettier/prettier": "error",
     "react/jsx-no-useless-fragment": "error",
-    "sort-destructure-keys/sort-destructure-keys": [
-      "error",
-      { caseSensitive: true },
-    ],
-    "typescript-sort-keys/interface": [
-      "error",
-      "asc",
-      { caseSensitive: true, natural: true, requiredFirst: true },
-    ],
-    "typescript-sort-keys/string-enum": [
-      "error",
-      "asc",
-      { caseSensitive: true, natural: true },
-    ],
   },
   settings: {
     "import/resolver": {

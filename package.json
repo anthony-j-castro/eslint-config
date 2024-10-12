@@ -1,6 +1,6 @@
 {
   "name": "@anthony-j-castro/eslint-config",
-  "version": "1.6.0-2",
+  "version": "1.6.0",
   "description": "Reusable ESLint config for React & TypeScript projects by @anthony-j-castro.",
   "private": true,
   "main": "index.js",
@@ -39,8 +39,6 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-sort-destructure-keys": "^2.0.0",
-    "eslint-plugin-typescript-sort-keys": "^3.3.0",
     "minimist": "1.2.8",
     "prettier": "^3.3.3",
     "semantic-release": "24.1.2",
@@ -59,8 +57,6 @@
     "eslint-plugin-prettier": "^5.2.1",
     "eslint-plugin-react": "^7.37.1",
     "eslint-plugin-react-hooks": "^5.0.0",
-    "eslint-plugin-sort-destructure-keys": "^2.0.0",
-    "eslint-plugin-typescript-sort-keys": "^3.3.0",
     "prettier": "^3.3.3",
     "typescript": "^5.6.3"
   }
