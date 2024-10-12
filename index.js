@@ -6,6 +6,7 @@ module.exports = {
     "plugin:import/typescript",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
+    "plugin:perfectionist/recommended-alphabetical-legacy",
     "plugin:@stylistic/disable-legacy",
     "plugin:prettier/recommended",
   ],
@@ -66,12 +67,37 @@ module.exports = {
         ],
       },
     ],
-    "perfectionist/sort-classes": "error",
     "perfectionist/sort-imports": [
       "error",
       {
-        groups: ["builtin", "external", "internal", "sibling", "index"],
+        groups: [
+          "builtin",
+          "external",
+          "internal",
+          "sibling",
+          "index",
+          "unknown",
+          "side-effect-style",
+        ],
         newlinesBetween: "never",
+      },
+    ],
+    "perfectionist/sort-interfaces": ["error", { groupKind: "required-first" }],
+    "perfectionist/sort-intersection-types": [
+      "error",
+      {
+        groups: ["unknown", "object"],
+      },
+    ],
+    "perfectionist/sort-object-types": [
+      "error",
+      { groupKind: "required-first" },
+    ],
+    "perfectionist/sort-objects": "off",
+    "perfectionist/sort-union-types": [
+      "error",
+      {
+        groups: ["unknown", "nullish"],
       },
     ],
     "prettier/prettier": "error",
@@ -98,6 +124,8 @@ module.exports = {
       },
     },
     perfectionist: {
+      ignoreCase: false,
+      order: "asc",
       type: "alphabetical",
     },
     react: {
