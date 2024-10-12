@@ -1,3 +1,16 @@
+# [1.7.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.6.0...v1.7.0) (2024-10-12)
+
+
+### Bug Fixes
+
+* Update deprecated no-var-requires rule in .js override ([#241](https://github.com/anthony-j-castro/eslint-config/issues/241)) ([8bf2d06](https://github.com/anthony-j-castro/eslint-config/commit/8bf2d067cc0a8f0544adf879c888bded3610ca3c))
+
+
+### Features
+
+* Ignore unused caught errors ([#240](https://github.com/anthony-j-castro/eslint-config/issues/240)) ([b385fe1](https://github.com/anthony-j-castro/eslint-config/commit/b385fe14d3e4e207dc6a9afa114cc0c59fd8cf15))
+* Use perfectionist plugin for sorting rules ([#239](https://github.com/anthony-j-castro/eslint-config/issues/239)) ([eb4aeb0](https://github.com/anthony-j-castro/eslint-config/commit/eb4aeb04d8f55d7f3a4c4acfcbef9f9d17f8bc8d))
+
 # [1.6.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.5.0...v1.6.0) (2024-04-03)
 
 
