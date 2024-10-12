@@ -54,14 +54,6 @@ module.exports = {
     "import/no-named-as-default": "off",
     "import/no-relative-packages": "error",
     "import/no-unresolved": "error",
-    "import/order": [
-      "error",
-      {
-        alphabetize: { order: "asc" },
-        groups: ["builtin", "external", "internal", "sibling", "index"],
-        "newlines-between": "never",
-      },
-    ],
     "no-console": "error",
     "no-restricted-imports": [
       "warn",
@@ -75,13 +67,19 @@ module.exports = {
       },
     ],
     "perfectionist/sort-classes": "error",
+    "perfectionist/sort-imports": [
+      "error",
+      {
+        groups: ["builtin", "external", "internal", "sibling", "index"],
+        newlinesBetween: "never",
+      },
+    ],
     "prettier/prettier": "error",
     "react/jsx-no-useless-fragment": "error",
     "sort-destructure-keys/sort-destructure-keys": [
       "error",
       { caseSensitive: true },
     ],
-    "sort-imports": ["error", { ignoreDeclarationSort: true }],
     "typescript-sort-keys/interface": [
       "error",
       "asc",
