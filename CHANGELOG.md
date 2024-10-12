@@ -1,3 +1,11 @@
+# [1.8.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.7.0...v1.8.0) (2024-10-12)
+
+
+### Features
+
+* Enforce specifying radix when using parseInt ([#242](https://github.com/anthony-j-castro/eslint-config/issues/242)) ([85c24d5](https://github.com/anthony-j-castro/eslint-config/commit/85c24d53ff8f5e7c235c2be5de56dfc89201940b))
+* Sort types last in named imports list ([#243](https://github.com/anthony-j-castro/eslint-config/issues/243)) ([8da9818](https://github.com/anthony-j-castro/eslint-config/commit/8da98184d11b15d700c88ebbc038d801f069eb41))
+
 # [1.7.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.6.0...v1.7.0) (2024-10-12)
 
 
