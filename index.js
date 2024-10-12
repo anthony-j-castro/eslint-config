@@ -80,6 +80,12 @@ module.exports = {
         groups: ["unknown", "object"],
       },
     ],
+    "perfectionist/sort-jsx-props": [
+      "error",
+      {
+        groups: ["unknown", "shorthand"],
+      },
+    ],
     "perfectionist/sort-object-types": [
       "error",
       { groupKind: "required-first" },
