@@ -86,6 +86,12 @@ module.exports = {
         groups: ["unknown", "shorthand"],
       },
     ],
+    "perfectionist/sort-named-imports": [
+      "error",
+      {
+        groupKind: "values-first",
+      },
+    ],
     "perfectionist/sort-object-types": [
       "error",
       { groupKind: "required-first" },
