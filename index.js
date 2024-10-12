@@ -39,7 +39,7 @@ module.exports = {
       "double",
       { allowTemplateLiterals: false, avoidEscape: true },
     ],
-    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-unused-vars": ["error", { caughtErrors: "none" }],
     "arrow-body-style": ["error", "as-needed"],
     curly: ["error", "all"],
     "import/newline-after-import": "error",
