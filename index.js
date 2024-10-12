@@ -19,14 +19,7 @@ module.exports = {
     },
   ],
   parser: "@typescript-eslint/parser",
-  plugins: [
-    "@stylistic",
-    "@typescript-eslint",
-    "prettier",
-    "sort-destructure-keys",
-    "typescript-sort-keys",
-    "perfectionist",
-  ],
+  plugins: ["@stylistic", "@typescript-eslint", "prettier", "perfectionist"],
   rules: {
     "@stylistic/jsx-self-closing-comp": [
       "error",
