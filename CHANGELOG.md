@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.8.0...v1.9.0) (2024-10-12)
+
+
+### Features
+
+* Use natural sorting for perfectionist rules ([#244](https://github.com/anthony-j-castro/eslint-config/issues/244)) ([6416677](https://github.com/anthony-j-castro/eslint-config/commit/64166779f9c3014a8c7654bb60734008cc615473))
+
 # [1.8.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.7.0...v1.8.0) (2024-10-12)
 
 
