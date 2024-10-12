@@ -6,7 +6,7 @@ module.exports = {
     "plugin:import/typescript",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:perfectionist/recommended-alphabetical-legacy",
+    "plugin:perfectionist/recommended-natural-legacy",
     "plugin:@stylistic/disable-legacy",
     "plugin:prettier/recommended",
   ],
@@ -115,8 +115,6 @@ module.exports = {
     },
     perfectionist: {
       ignoreCase: false,
-      order: "asc",
-      type: "alphabetical",
     },
     react: {
       version: "detect",
