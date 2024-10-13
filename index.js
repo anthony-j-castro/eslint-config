@@ -17,6 +17,12 @@ module.exports = {
         "@typescript-eslint/no-require-imports": "off",
       },
     },
+    {
+      files: ["*.json"],
+      rules: {
+        "@typescript-eslint/no-unused-expressions": "off",
+      },
+    },
   ],
   parser: "@typescript-eslint/parser",
   plugins: ["@stylistic", "@typescript-eslint", "prettier", "perfectionist"],
