@@ -61,14 +61,20 @@ module.exports = {
     "perfectionist/sort-imports": [
       "error",
       {
+        customGroups: {
+          value: {
+            fontsource: ["@fontsource-variable/*"],
+          },
+        },
         groups: [
           "builtin",
           "external",
           "internal",
           "sibling",
-          "index",
           "unknown",
-          "side-effect-style",
+          "index",
+          "fontsource",
+          "style",
         ],
         newlinesBetween: "never",
       },
@@ -115,6 +121,7 @@ module.exports = {
     },
     perfectionist: {
       ignoreCase: false,
+      type: "natural",
     },
     react: {
       version: "detect",
