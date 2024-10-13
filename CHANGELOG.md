@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/anthony-j-castro/eslint-config/compare/v1.9.0...v1.9.1) (2024-10-13)
+
+
+### Bug Fixes
+
+* Always sort naturally, and other fixes ([#245](https://github.com/anthony-j-castro/eslint-config/issues/245)) ([22594e7](https://github.com/anthony-j-castro/eslint-config/commit/22594e7775cbac7c0103a1c86a3cf7948d5407fe))
+
 # [1.9.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.8.0...v1.9.0) (2024-10-12)
 
 
