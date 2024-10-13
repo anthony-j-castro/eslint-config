@@ -45,6 +45,10 @@ module.exports = {
       "double",
       { allowTemplateLiterals: false, avoidEscape: true },
     ],
+    "@typescript-eslint/no-empty-object-type": [
+      "error",
+      { allowInterfaces: "with-single-extends" },
+    ],
     "@typescript-eslint/no-unused-vars": ["error", { caughtErrors: "none" }],
     "arrow-body-style": ["error", "as-needed"],
     curly: ["error", "all"],
