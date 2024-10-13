@@ -17,6 +17,12 @@ module.exports = {
         "@typescript-eslint/no-require-imports": "off",
       },
     },
+    {
+      files: ["*.json"],
+      rules: {
+        "@typescript-eslint/no-unused-expressions": "off",
+      },
+    },
   ],
   parser: "@typescript-eslint/parser",
   plugins: ["@stylistic", "@typescript-eslint", "prettier", "perfectionist"],
@@ -61,14 +67,20 @@ module.exports = {
     "perfectionist/sort-imports": [
       "error",
       {
+        customGroups: {
+          value: {
+            fontsource: ["@fontsource-variable/*"],
+          },
+        },
         groups: [
           "builtin",
           "external",
           "internal",
           "sibling",
-          "index",
           "unknown",
-          "side-effect-style",
+          "index",
+          "fontsource",
+          "style",
         ],
         newlinesBetween: "never",
       },
@@ -115,6 +127,7 @@ module.exports = {
     },
     perfectionist: {
       ignoreCase: false,
+      type: "natural",
     },
     react: {
       version: "detect",
