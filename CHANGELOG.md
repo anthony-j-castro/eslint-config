@@ -1,3 +1,17 @@
+# [1.10.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.9.1...v1.10.0) (2024-10-14)
+
+
+### Bug Fixes
+
+* Allow empty interfaces if they extend from a single base interface ([#246](https://github.com/anthony-j-castro/eslint-config/issues/246)) ([ae57d91](https://github.com/anthony-j-castro/eslint-config/commit/ae57d91c55fa2192f3f702dcea5488ab96b5727e))
+
+
+### Features
+
+* Enable react/jsx-runtime rules ([#249](https://github.com/anthony-j-castro/eslint-config/issues/249)) ([babc098](https://github.com/anthony-j-castro/eslint-config/commit/babc098683e2399262d4312bdf35cbc22688cd4a))
+* Enable sorting of destructured objects ([#248](https://github.com/anthony-j-castro/eslint-config/issues/248)) ([0a4707b](https://github.com/anthony-j-castro/eslint-config/commit/0a4707bbfe9fdc649eefe21298b4fd4461576db5))
+* Enable typescript-eslint/stylistic rules ([#247](https://github.com/anthony-j-castro/eslint-config/issues/247)) ([57b40b4](https://github.com/anthony-j-castro/eslint-config/commit/57b40b4145c98d3324d9c2c66afd7eadf6e2ea39))
+
 ## [1.9.1](https://github.com/anthony-j-castro/eslint-config/compare/v1.9.0...v1.9.1) (2024-10-13)
 
 
