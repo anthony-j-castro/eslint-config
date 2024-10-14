@@ -6,6 +6,7 @@ module.exports = {
     "plugin:import/recommended",
     "plugin:import/typescript",
     "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
     "plugin:perfectionist/recommended-natural-legacy",
     "plugin:@stylistic/disable-legacy",
