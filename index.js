@@ -2,6 +2,7 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/stylistic",
     "plugin:import/recommended",
     "plugin:import/typescript",
     "plugin:react/recommended",
@@ -45,6 +46,7 @@ module.exports = {
       "double",
       { allowTemplateLiterals: false, avoidEscape: true },
     ],
+    "@typescript-eslint/array-type": ["error", { default: "array-simple" }],
     "@typescript-eslint/no-empty-object-type": [
       "error",
       { allowInterfaces: "with-single-extends" },
