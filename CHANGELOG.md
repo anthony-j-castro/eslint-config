@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/anthony-j-castro/eslint-config/compare/v1.10.0...v1.10.1) (2024-10-15)
+
+
+### Bug Fixes
+
+* Sort block scoped switch cases ([#251](https://github.com/anthony-j-castro/eslint-config/issues/251)) ([035cfcf](https://github.com/anthony-j-castro/eslint-config/commit/035cfcfd11a3f52da1cef03203dabe68504b9eb0))
+
 # [1.10.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.9.1...v1.10.0) (2024-10-14)
 
 
