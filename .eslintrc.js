@@ -4,6 +4,6 @@ module.exports = {
   ignorePatterns: ["**/*.json"],
   root: true,
   rules: {
-    "perfectionist/sort-objects": "error",
+    "perfectionist/sort-objects": ["error", { destructureOnly: false }],
   },
 };
