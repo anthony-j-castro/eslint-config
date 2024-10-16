@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.10.1...v1.11.0) (2024-10-16)
+
+
+### Features
+
+* Sort switch cases ([#252](https://github.com/anthony-j-castro/eslint-config/issues/252)) ([911067b](https://github.com/anthony-j-castro/eslint-config/commit/911067b91b942c765f1483bec058aeb72747ffc9))
+
 ## [1.10.1](https://github.com/anthony-j-castro/eslint-config/compare/v1.10.0...v1.10.1) (2024-10-15)
 
 
