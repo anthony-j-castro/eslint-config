@@ -116,6 +116,7 @@ module.exports = {
       { groupKind: "required-first" },
     ],
     "perfectionist/sort-objects": ["error", { destructureOnly: true }],
+    "perfectionist/sort-switch-case": "error",
     "perfectionist/sort-union-types": [
       "error",
       {
@@ -123,7 +124,6 @@ module.exports = {
       },
     ],
     "prettier/prettier": "error",
-    "perfectionist/sort-switch-case": "error",
     radix: ["error", "always"],
     "react/jsx-no-useless-fragment": "error",
   },
