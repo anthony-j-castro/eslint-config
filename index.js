@@ -123,6 +123,7 @@ module.exports = {
       },
     ],
     "prettier/prettier": "error",
+    "perfectionist/sort-switch-case": "error",
     radix: ["error", "always"],
     "react/jsx-no-useless-fragment": "error",
   },
