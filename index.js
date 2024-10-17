@@ -116,7 +116,6 @@ module.exports = {
       { groupKind: "required-first" },
     ],
     "perfectionist/sort-objects": ["error", { destructureOnly: true }],
-    "perfectionist/sort-switch-case": "error",
     "perfectionist/sort-union-types": [
       "error",
       {
