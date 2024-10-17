@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/anthony-j-castro/eslint-config/compare/v1.11.0...v1.11.1) (2024-10-17)
+
+
+### Bug Fixes
+
+* Sort switch cases when switch statement is an expression ([#253](https://github.com/anthony-j-castro/eslint-config/issues/253)) ([6cff634](https://github.com/anthony-j-castro/eslint-config/commit/6cff634e740f7d317d0aca23e59a4fada30a0da5))
+
 # [1.11.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.10.1...v1.11.0) (2024-10-16)
 
 
