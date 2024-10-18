@@ -1,25 +1,21 @@
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-import { fixupConfigRules } from "@eslint/compat";
-import { FlatCompat } from "@eslint/eslintrc";
-import js from "@eslint/js";
-import stylistic from "@stylistic/eslint-plugin";
-import tsParser from "@typescript-eslint/parser";
-import importPlugin from "eslint-plugin-import";
-import perfectionist from "eslint-plugin-perfectionist";
-import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
-import reactPlugin from "eslint-plugin-react";
-import tseslint from "typescript-eslint";
+const { fixupConfigRules } = require("@eslint/compat");
+const { FlatCompat } = require("@eslint/eslintrc");
+const js = require("@eslint/js");
+const stylistic = require("@stylistic/eslint-plugin");
+const tsParser = require("@typescript-eslint/parser");
+const importPlugin = require("eslint-plugin-import");
+const perfectionist = require("eslint-plugin-perfectionist");
+const eslintPluginPrettierRecommended = require("eslint-plugin-prettier/recommended");
+const reactPlugin = require("eslint-plugin-react");
+const tseslint = require("typescript-eslint");
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({
   allConfig: js.configs.all,
   baseDirectory: __dirname,
   recommendedConfig: js.configs.recommended,
 });
 
-export default tseslint.config(
+module.exports = tseslint.config(
   js.configs.recommended,
   ...tseslint.configs.recommended,
   ...tseslint.configs.stylistic,
@@ -189,6 +185,12 @@ export default tseslint.config(
       react: {
         version: "detect",
       },
+    },
+  },
+  {
+    files: ["**/*.js"],
+    rules: {
+      "@typescript-eslint/no-require-imports": "off",
     },
   },
 );

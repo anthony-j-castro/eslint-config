@@ -1,14 +1,9 @@
-import globals from "globals";
-import config from "./index.js";
+const globals = require("globals");
+const config = require("./index.js");
 
-export default [
+module.exports = [
   ...config,
   {
-    languageOptions: {
-      globals: {
-        ...globals.node,
-      },
-    },
     rules: {
       "perfectionist/sort-objects": [
         "error",
@@ -16,6 +11,14 @@ export default [
           destructureOnly: false,
         },
       ],
+    },
+  },
+  {
+    files: ["index.js", "eslint.config.js", "release.config.js"],
+    languageOptions: {
+      globals: {
+        ...globals.node,
+      },
     },
   },
 ];
