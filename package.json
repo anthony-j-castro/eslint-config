@@ -1,6 +1,6 @@
 {
   "name": "@anthony-j-castro/eslint-config",
-  "version": "1.11.1-1",
+  "version": "1.11.1-2",
   "description": "Reusable ESLint config for React & TypeScript projects by @anthony-j-castro.",
   "private": true,
   "main": "index.js",
@@ -47,6 +47,7 @@
     "typescript-eslint": "8.10.0"
   },
   "peerDependencies": {
+    "@eslint/compat": "^1.2.1",
     "@stylistic/eslint-plugin": "^2.9.0",
     "eslint": "^9.13.0",
     "eslint-config-prettier": "^9.1.0",
