@@ -10,9 +10,7 @@ const reactPlugin = require("eslint-plugin-react");
 const tseslint = require("typescript-eslint");
 
 const compat = new FlatCompat({
-  allConfig: js.configs.all,
   baseDirectory: __dirname,
-  recommendedConfig: js.configs.recommended,
 });
 
 module.exports = tseslint.config(
