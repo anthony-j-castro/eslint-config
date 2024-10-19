@@ -1,3 +1,20 @@
+# [2.0.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.11.1...v2.0.0) (2024-10-19)
+
+
+### Documentation
+
+* Update README with flat config example ([#259](https://github.com/anthony-j-castro/eslint-config/issues/259)) ([b1aa66a](https://github.com/anthony-j-castro/eslint-config/commit/b1aa66a6b7b8b04f8e41679b22cccc189f8ac50a))
+
+
+### Features
+
+* Enforce function expressions for consistency ([#258](https://github.com/anthony-j-castro/eslint-config/issues/258)) ([0570f7d](https://github.com/anthony-j-castro/eslint-config/commit/0570f7ddd8c19e2ded0e7abb3364db47a2257a9d))
+
+
+### BREAKING CHANGES
+
+* Projects must use eslint version 9 and use a flat config.
+
 ## [1.11.1](https://github.com/anthony-j-castro/eslint-config/compare/v1.11.0...v1.11.1) (2024-10-17)
 
 
