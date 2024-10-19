@@ -10,13 +10,12 @@ To install the latest version as a dependency of a project:
 npm install --save-dev "https://github.com/anthony-j-castro/eslint-config.git#semver:1.11.1"
 ```
 
-Then, copy and paste this starter config in a new `eslintrc.js` file:
+Then, copy and paste this starter config in a new `eslint.config.js` file:
 
 ```javascript
-module.exports = {
-  env: { browser: true, node: true },
-  extends: ["@anthony-j-castro/eslint-config"],
-};
+import config from "@anthony-j-castro/eslint-config";
+
+export default [...config];
 ```
 
 ## Releasing a new version
