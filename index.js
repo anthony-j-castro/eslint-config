@@ -89,6 +89,7 @@ module.exports = tseslint.config(
       ],
       "arrow-body-style": ["error", "as-needed"],
       curly: ["error", "all"],
+      "func-style": ["error", "expression"],
       "import/newline-after-import": "error",
       "import/no-named-as-default": "off",
       "import/no-named-as-default-member": "off",
