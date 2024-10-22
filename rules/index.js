@@ -23,6 +23,8 @@ module.exports = [
       ...perfectionistRules,
       ...stylisticRules,
       ...typescriptEslintRules,
+      "prettier/prettier": "error",
+      "react/jsx-no-useless-fragment": "error",
     },
     settings: {
       "import/resolver": {
