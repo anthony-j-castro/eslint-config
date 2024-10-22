@@ -1,3 +1,11 @@
+# [2.1.0](https://github.com/anthony-j-castro/eslint-config/compare/v2.0.0...v2.1.0) (2024-10-22)
+
+
+### Features
+
+* Enable unicorn plugin rules ([#264](https://github.com/anthony-j-castro/eslint-config/issues/264)) ([dafffd3](https://github.com/anthony-j-castro/eslint-config/commit/dafffd3365e18559c8624382d2f8732b17f74e6b))
+* Require shorthand object properties when appropriate ([#263](https://github.com/anthony-j-castro/eslint-config/issues/263)) ([de74684](https://github.com/anthony-j-castro/eslint-config/commit/de7468437d17830f704f06b93d72c8e57e723c66))
+
 # [2.0.0](https://github.com/anthony-j-castro/eslint-config/compare/v1.11.1...v2.0.0) (2024-10-19)
 
 

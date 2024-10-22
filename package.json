@@ -1,6 +1,6 @@
 {
   "name": "@anthony-j-castro/eslint-config",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Reusable ESLint config for React & TypeScript projects by @anthony-j-castro.",
   "private": true,
   "main": "index.js",
