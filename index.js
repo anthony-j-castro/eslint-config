@@ -8,6 +8,7 @@ const perfectionist = require("eslint-plugin-perfectionist");
 const eslintPluginPrettierRecommended = require("eslint-plugin-prettier/recommended");
 const reactPlugin = require("eslint-plugin-react");
 const tseslint = require("typescript-eslint");
+const rules = require("./rules");
 
 const compat = new FlatCompat({
   baseDirectory: __dirname,
@@ -87,26 +88,11 @@ module.exports = tseslint.config(
           caughtErrors: "none",
         },
       ],
-      "arrow-body-style": ["error", "as-needed"],
-      curly: ["error", "all"],
-      "func-style": ["error", "expression"],
       "import/newline-after-import": "error",
       "import/no-named-as-default": "off",
       "import/no-named-as-default-member": "off",
       "import/no-relative-packages": "error",
       "import/no-unresolved": "error",
-      "no-console": "error",
-      "no-restricted-imports": [
-        "warn",
-        {
-          patterns: [
-            {
-              group: ["../*"],
-              message: "Prefer aliased imports over relative parent imports.",
-            },
-          ],
-        },
-      ],
       "perfectionist/sort-imports": [
         "error",
         {
@@ -171,7 +157,6 @@ module.exports = tseslint.config(
         },
       ],
       "prettier/prettier": "error",
-      radix: ["error", "always"],
       "react/jsx-no-useless-fragment": "error",
     },
     settings: {
@@ -192,4 +177,5 @@ module.exports = tseslint.config(
       "@typescript-eslint/no-require-imports": "off",
     },
   },
+  ...rules,
 );

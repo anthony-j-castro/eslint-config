@@ -14,7 +14,12 @@ module.exports = [
     },
   },
   {
-    files: ["index.js", "eslint.config.js", "release.config.js"],
+    files: [
+      "index.js",
+      "eslint.config.js",
+      "release.config.js",
+      "rules/**/*.js",
+    ],
     languageOptions: {
       globals: {
         ...globals.node,
