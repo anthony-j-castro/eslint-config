@@ -26,7 +26,6 @@ module.exports = tseslint.config(
   perfectionist.configs["recommended-natural"],
   stylistic.configs["disable-legacy"],
   eslintPluginPrettierRecommended,
-  ...rules,
   {
     files: ["**/*.{js,mjs,cjs,jsx,mjsx,ts,tsx,mtsx}"],
     languageOptions: {
@@ -48,6 +47,7 @@ module.exports = tseslint.config(
       },
     },
   },
+  ...rules,
   {
     files: ["**/*.js"],
     rules: {
