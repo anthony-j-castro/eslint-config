@@ -1,3 +1,4 @@
+const stylisticPlugin = require("@stylistic/eslint-plugin");
 const tsParser = require("@typescript-eslint/parser");
 const eslintRules = require("./eslint");
 const importRules = require("./import");
@@ -12,6 +13,9 @@ module.exports = [
       ecmaVersion: "latest",
       parser: tsParser,
       sourceType: "module",
+    },
+    plugins: {
+      "@stylistic": stylisticPlugin,
     },
     rules: {
       ...eslintRules,
