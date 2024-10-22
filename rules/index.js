@@ -2,6 +2,7 @@ const tsParser = require("@typescript-eslint/parser");
 const eslintRules = require("./eslint");
 const importRules = require("./import");
 const perfectionistRules = require("./perfectionist");
+const typescriptEslintRules = require("./typescript-eslint");
 
 module.exports = [
   {
@@ -15,6 +16,7 @@ module.exports = [
       ...eslintRules,
       ...importRules,
       ...perfectionistRules,
+      ...typescriptEslintRules,
     },
     settings: {
       "import/resolver": {
