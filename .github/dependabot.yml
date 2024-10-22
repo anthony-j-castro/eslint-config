@@ -8,9 +8,10 @@ updates:
       time: "18:00"
       timezone: "America/New_York"
     groups:
-      "@typescript-eslint":
+      "typescript-eslint":
         patterns:
           - "@typescript-eslint/*"
+          - "typescript-eslint/*"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
