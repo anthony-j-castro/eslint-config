@@ -1,3 +1,10 @@
+## [2.1.1](https://github.com/anthony-j-castro/eslint-config/compare/v2.1.0...v2.1.1) (2024-12-01)
+
+
+### Bug Fixes
+
+* Update dependencies ([#291](https://github.com/anthony-j-castro/eslint-config/issues/291)) ([7aadfeb](https://github.com/anthony-j-castro/eslint-config/commit/7aadfeb3970111adf5109f55578eda45a046c8fd))
+
 # [2.1.0](https://github.com/anthony-j-castro/eslint-config/compare/v2.0.0...v2.1.0) (2024-10-22)
 
 
