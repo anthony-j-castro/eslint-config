@@ -22,7 +22,7 @@
   "license": "MIT",
   "devDependencies": {
     "@anthony-j-castro/prettier-config": "github:anthony-j-castro/prettier-config#semver:1.0.0",
-    "@eslint/compat": "^1.2.3",
+    "@eslint/compat": "^1.2.4",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/exec": "6.0.3",
     "@semantic-release/git": "10.0.1",
@@ -48,7 +48,7 @@
     "typescript-eslint": "^8.17.0"
   },
   "peerDependencies": {
-    "@eslint/compat": "^1.2.3",
+    "@eslint/compat": "^1.2.4",
     "@stylistic/eslint-plugin": "^2.11.0",
     "@typescript-eslint/parser": "^8.17.0",
     "eslint": "^9.16.0",
