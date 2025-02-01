@@ -1,3 +1,13 @@
+## [3.0.0](https://github.com/anthony-j-castro/eslint-config/compare/v2.1.3...v3.0.0) (2025-02-01)
+
+### ⚠ BREAKING CHANGES
+
+* bump @stylistic/eslint-plugin from 2.13.0 to 3.0.1 (#326)
+
+### Features
+
+* bump @stylistic/eslint-plugin from 2.13.0 to 3.0.1 ([#326](https://github.com/anthony-j-castro/eslint-config/issues/326)) ([35d546b](https://github.com/anthony-j-castro/eslint-config/commit/35d546b0a843fa15112db3b4a0060758de698bb4))
+
 ## [2.1.3](https://github.com/anthony-j-castro/eslint-config/compare/v2.1.2...v2.1.3) (2025-02-01)
 
 ### ⚠ BREAKING CHANGES
