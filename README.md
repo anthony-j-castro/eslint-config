@@ -22,14 +22,4 @@ export default [...config];
 
 This repo uses
 [`semantic-release`](https://github.com/semantic-release/semantic-release) to
-automatically create and tag new versions.
-
-To release a new version:
-
-1. Navigate to the
-   ["Create release" workflow](https://github.com/anthony-j-castro/eslint-config/actions/workflows/release.yml).
-2. Click on the "Run workflow" dropdown, ensure the "Run with dry-run flag"
-   option is checked, and click "Run workflow".
-3. Review the proposed version number and release notes in the workflow logs.
-4. If everything is correct, repeat steps 1 and 2 but uncheck the "Run with
-   dry-run flag" option.
+automatically create and tag new versions on every merge to `main`.
