@@ -1,3 +1,13 @@
+## [2.1.3](https://github.com/anthony-j-castro/eslint-config/compare/v2.1.2...v2.1.3) (2025-02-01)
+
+### ⚠ BREAKING CHANGES
+
+* Update dependabot settings (#331)
+
+### Build System
+
+* Update dependabot settings ([#331](https://github.com/anthony-j-castro/eslint-config/issues/331)) ([ce99903](https://github.com/anthony-j-castro/eslint-config/commit/ce999031b2a9c20acff3e45c350491dd03fd6ae8))
+
 ## [2.1.2](https://github.com/anthony-j-castro/eslint-config/compare/v2.1.1...v2.1.2) (2025-02-01)
 
 ## [2.1.1](https://github.com/anthony-j-castro/eslint-config/compare/v2.1.0...v2.1.1) (2024-12-01)
