@@ -44,7 +44,7 @@ const config = {
     [
       "@semantic-release/github",
       {
-        successComment: false,
+        successCommentCondition: false,
       },
     ],
   ],
