@@ -12,7 +12,6 @@ const config = {
       "@semantic-release/release-notes-generator",
       {
         preset: "conventionalcommits",
-        releaseRules: [{ release: "patch", type: "build" }],
       },
     ],
     [
