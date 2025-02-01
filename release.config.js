@@ -12,6 +12,22 @@ const config = {
       "@semantic-release/release-notes-generator",
       {
         preset: "conventionalcommits",
+        presetConfig: {
+          types: [
+            { section: "Dependencies", type: "build" },
+            { section: "Features", type: "feat" },
+            { section: "Features", type: "feature" },
+            { section: "Bug Fixes", type: "fix" },
+            { section: "Performance Improvements", type: "perf" },
+            { section: "Reverts", type: "revert" },
+            { hidden: true, section: "Documentation", type: "docs" },
+            { hidden: true, section: "Styles", type: "style" },
+            { hidden: true, section: "Miscellaneous Chores", type: "chore" },
+            { hidden: true, section: "Code Refactoring", type: "refactor" },
+            { hidden: true, section: "Tests", type: "test" },
+            { hidden: true, section: "Continuous Integration", type: "ci" },
+          ],
+        },
       },
     ],
     [
