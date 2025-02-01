@@ -12,6 +12,9 @@ updates:
         patterns:
           - "typescript-eslint"
           - "@typescript-eslint/parser"
+    commit-message:
+      prefix: "build"
+      include: "scope"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
