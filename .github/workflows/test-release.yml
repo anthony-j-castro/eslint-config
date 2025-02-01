@@ -25,7 +25,7 @@ jobs:
       - name: Lint
         run: npm run lint
 
-  release:
+  queue-release:
     if: github.ref == 'refs/heads/main'
     needs: test
     environment: release
