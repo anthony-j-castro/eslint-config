@@ -5,10 +5,16 @@ const config = {
       "@semantic-release/commit-analyzer",
       {
         preset: "conventionalcommits",
-        releaseRules: [{ release: "patch", type: "chore" }],
+        releaseRules: [{ release: "patch", type: "build" }],
       },
     ],
-    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        preset: "conventionalcommits",
+        releaseRules: [{ release: "patch", type: "build" }],
+      },
+    ],
     [
       "@semantic-release/changelog",
       {
