@@ -1,3 +1,5 @@
+## [3.0.1](https://github.com/anthony-j-castro/eslint-config/compare/v3.0.0...v3.0.1) (2025-02-01)
+
 ## [3.0.0](https://github.com/anthony-j-castro/eslint-config/compare/v2.1.3...v3.0.0) (2025-02-01)
 
 ### ⚠ BREAKING CHANGES
