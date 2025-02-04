@@ -1,3 +1,9 @@
+## [3.0.2](https://github.com/anthony-j-castro/eslint-config/compare/v3.0.1...v3.0.2) (2025-02-04)
+
+### Dependencies
+
+* **deps-dev:** bump the typescript-eslint group with 2 updates ([#334](https://github.com/anthony-j-castro/eslint-config/issues/334)) ([ebb15ac](https://github.com/anthony-j-castro/eslint-config/commit/ebb15acc469fb087f73717f379e4305160f713bf))
+
 ## [3.0.1](https://github.com/anthony-j-castro/eslint-config/compare/v3.0.0...v3.0.1) (2025-02-01)
 
 ## [3.0.0](https://github.com/anthony-j-castro/eslint-config/compare/v2.1.3...v3.0.0) (2025-02-01)
