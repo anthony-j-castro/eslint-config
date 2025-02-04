@@ -1,3 +1,10 @@
+## [3.0.3](https://github.com/anthony-j-castro/eslint-config/compare/v3.0.2...v3.0.3) (2025-02-04)
+
+### Dependencies
+
+* **deps-dev:** bump @semantic-release/exec from 7.0.2 to 7.0.3 ([#336](https://github.com/anthony-j-castro/eslint-config/issues/336)) ([9f1237a](https://github.com/anthony-j-castro/eslint-config/commit/9f1237a32cfde2ed1b7e8f2c8cf47d60c137999f))
+* **deps-dev:** bump eslint-plugin-perfectionist from 4.7.0 to 4.8.0 ([#335](https://github.com/anthony-j-castro/eslint-config/issues/335)) ([3aff1d8](https://github.com/anthony-j-castro/eslint-config/commit/3aff1d8f99d350a2754955b485e398db8a7aad93))
+
 ## [3.0.2](https://github.com/anthony-j-castro/eslint-config/compare/v3.0.1...v3.0.2) (2025-02-04)
 
 ### Dependencies
