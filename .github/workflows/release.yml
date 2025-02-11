@@ -8,7 +8,24 @@ on:
       - completed
 
 jobs:
+  ready:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ready
+        run: echo "Ready to release"
+
+  fail:
+    if: ${{ github.event.workflow_run.conclusion == 'failure' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail
+        run: |
+          echo "Required workflow was not successful"
+          exit 1
+
   release:
+    needs: ready
     environment: release
     permissions:
       contents: write
