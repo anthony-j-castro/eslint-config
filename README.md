@@ -7,7 +7,7 @@ Reusable ESLint config for React & TypeScript projects by @anthony-j-castro.
 To install the latest version as a dependency of a project:
 
 ```bash
-npm install --save-dev "https://github.com/anthony-j-castro/eslint-config.git#semver:3.0.6"
+npm install --save-dev "https://github.com/anthony-j-castro/eslint-config.git#semver:3.0.7"
 ```
 
 Then, copy and paste this starter config in a new `eslint.config.js` file:
