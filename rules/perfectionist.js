@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   "perfectionist/sort-imports": [
     "error",
     {
