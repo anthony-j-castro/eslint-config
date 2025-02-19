@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   "unicorn/better-regex": "error",
   "unicorn/catch-error-name": "error",
   "unicorn/consistent-destructuring": "error",

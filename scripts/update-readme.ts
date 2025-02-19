@@ -1,6 +1,9 @@
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 import minimist from "minimist";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const README_PATH = path.join(__dirname, "../README.md");
 const INSTALL_SNIPPET_REGEX =

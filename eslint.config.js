@@ -1,7 +1,7 @@
-const globals = require("globals");
-const config = require("./index.js");
+import globals from "globals";
+import config from "./index.js";
 
-module.exports = [
+export default [
   ...config,
   {
     rules: {

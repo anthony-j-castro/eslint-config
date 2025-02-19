@@ -1,13 +1,13 @@
-const stylisticPlugin = require("@stylistic/eslint-plugin");
-const unicornPlugin = require("eslint-plugin-unicorn");
-const eslintRules = require("./eslint");
-const importRules = require("./import");
-const perfectionistRules = require("./perfectionist");
-const stylisticRules = require("./stylistic");
-const typescriptEslintRules = require("./typescript-eslint");
-const unicornRules = require("./unicorn");
+import stylisticPlugin from "@stylistic/eslint-plugin";
+import unicornPlugin from "eslint-plugin-unicorn";
+import eslintRules from "./eslint.js";
+import importRules from "./import.js";
+import perfectionistRules from "./perfectionist.js";
+import stylisticRules from "./stylistic.js";
+import typescriptEslintRules from "./typescript-eslint.js";
+import unicornRules from "./unicorn.js";
 
-module.exports = [
+export default [
   {
     plugins: {
       "@stylistic": stylisticPlugin,

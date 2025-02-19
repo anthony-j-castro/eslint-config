@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   "@stylistic/jsx-self-closing-comp": [
     "error",
     {

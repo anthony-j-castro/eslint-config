@@ -3,6 +3,7 @@
   "version": "3.0.7",
   "description": "Reusable ESLint config for React & TypeScript projects by @anthony-j-castro.",
   "private": true,
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "lint": "npx eslint",
