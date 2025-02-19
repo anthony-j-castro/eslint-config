@@ -10,7 +10,7 @@ To install the latest version as a dependency of a project:
 npm install --save-dev "https://github.com/anthony-j-castro/eslint-config.git#semver:3.0.7"
 ```
 
-Then, copy and paste this starter config in a new `eslint.config.js` file:
+Then, copy and paste this starter config in a new `eslint.config.mjs` file:
 
 ```javascript
 import config from "@anthony-j-castro/eslint-config";
