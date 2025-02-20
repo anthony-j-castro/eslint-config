@@ -1,7 +1,3 @@
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-import { fixupConfigRules } from "@eslint/compat";
-import { FlatCompat } from "@eslint/eslintrc";
 import js from "@eslint/js";
 import stylistic from "@stylistic/eslint-plugin";
 import tsParser from "@typescript-eslint/parser";
@@ -9,14 +5,9 @@ import importPlugin from "eslint-plugin-import";
 import perfectionist from "eslint-plugin-perfectionist";
 import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended";
 import reactPlugin from "eslint-plugin-react";
+import reactHooks from "eslint-plugin-react-hooks";
 import tseslint from "typescript-eslint";
 import rules from "./rules/index.js";
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-const compat = new FlatCompat({
-  baseDirectory: __dirname,
-});
 
 const config = tseslint.config(
   js.configs.recommended,
@@ -26,7 +17,7 @@ const config = tseslint.config(
   importPlugin.flatConfigs.typescript,
   reactPlugin.configs.flat.recommended,
   reactPlugin.configs.flat["jsx-runtime"],
-  ...fixupConfigRules(compat.extends("plugin:react-hooks/recommended")),
+  reactHooks.configs["recommended-latest"],
   perfectionist.configs["recommended-natural"],
   stylistic.configs["disable-legacy"],
   eslintPluginPrettierRecommended,
