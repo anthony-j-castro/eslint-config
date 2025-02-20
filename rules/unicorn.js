@@ -1,6 +1,8 @@
 export default {
   "unicorn/better-regex": "error",
   "unicorn/catch-error-name": "error",
+  "unicorn/consistent-assert": "error",
+  "unicorn/consistent-date-clone": "error",
   "unicorn/consistent-destructuring": "error",
   "unicorn/consistent-empty-array-spread": "error",
   "unicorn/consistent-existence-index-check": "error",
@@ -15,6 +17,7 @@ export default {
   "unicorn/import-style": "error",
   "unicorn/new-for-builtins": "error",
   "unicorn/no-abusive-eslint-disable": "error",
+  "unicorn/no-accessor-recursion": "error",
   "unicorn/no-anonymous-default-export": "error",
   "unicorn/no-array-callback-reference": "error",
   "unicorn/no-array-for-each": "error",
@@ -35,6 +38,7 @@ export default {
   "unicorn/no-length-as-slice-end": "error",
   "unicorn/no-lonely-if": "error", // eslint/no-lonely-if was set as recommended
   "unicorn/no-magic-array-flat-depth": "error",
+  "unicorn/no-named-default": "error",
   "unicorn/no-negated-condition": "error",
   "unicorn/no-negation-in-equality-check": "error",
   "unicorn/no-nested-ternary": "off",
