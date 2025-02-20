@@ -9,7 +9,7 @@
     "lint": "npx eslint",
     "prettier": "prettier . --write",
     "prettier:ci": "prettier . --check",
-    "update-readme": "ts-node ./scripts/update-readme.ts"
+    "update-readme": "tsx ./scripts/update-readme.ts"
   },
   "keywords": [
     "eslint",
@@ -43,7 +43,7 @@
     "minimist": "1.2.8",
     "prettier": "^3.5.1",
     "semantic-release": "24.2.3",
-    "ts-node": "10.9.2",
+    "tsx": "4.19.3",
     "typescript": "^5.7.3",
     "typescript-eslint": "^8.24.1"
   },
