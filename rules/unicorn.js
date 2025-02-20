@@ -28,7 +28,7 @@ export default {
   "unicorn/no-empty-file": "error",
   "unicorn/no-for-loop": "error",
   "unicorn/no-hex-escape": "error",
-  "unicorn/no-instanceof-array": "error",
+  "unicorn/no-instanceof-builtins": "error",
   "unicorn/no-invalid-fetch-options": "error",
   "unicorn/no-invalid-remove-event-listener": "error",
   "unicorn/no-keyword-prefix": "off",
