@@ -1,6 +1,6 @@
 {
   "name": "@anthony-j-castro/eslint-config",
-  "version": "3.0.7",
+  "version": "4.0.0",
   "description": "Reusable ESLint config for React & TypeScript projects by @anthony-j-castro.",
   "private": true,
   "type": "module",
@@ -9,7 +9,7 @@
     "lint": "npx eslint",
     "prettier": "prettier . --write",
     "prettier:ci": "prettier . --check",
-    "update-readme": "ts-node ./scripts/update-readme.ts"
+    "update-readme": "tsx ./scripts/update-readme.ts"
   },
   "keywords": [
     "eslint",
@@ -23,16 +23,18 @@
   "license": "MIT",
   "devDependencies": {
     "@anthony-j-castro/prettier-config": "github:anthony-j-castro/prettier-config#semver:1.1.0",
+    "@eslint/compat": "^1.2.7",
     "@semantic-release/exec": "7.0.3",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "12.0.1",
-    "@stylistic/eslint-plugin": "^4.0.1",
+    "@stylistic/eslint-plugin": "^4.1.0",
     "@types/minimist": "1.2.5",
-    "@typescript-eslint/parser": "^8.24.1",
+    "@types/node": "22.13.5",
+    "@typescript-eslint/parser": "^8.25.0",
     "conventional-changelog-conventionalcommits": "8.0.0",
-    "eslint": "^9.20.1",
-    "eslint-config-prettier": "^10.0.1",
-    "eslint-import-resolver-typescript": "^3.8.2",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-import-resolver-typescript": "^3.8.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-perfectionist": "^4.9.0",
     "eslint-plugin-prettier": "^5.2.3",
@@ -40,26 +42,27 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-unicorn": "^57.0.0",
     "minimist": "1.2.8",
-    "prettier": "^3.5.1",
+    "prettier": "^3.5.2",
     "semantic-release": "24.2.3",
-    "ts-node": "10.9.2",
+    "tsx": "4.19.3",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.24.1"
+    "typescript-eslint": "^8.25.0"
   },
   "peerDependencies": {
-    "@stylistic/eslint-plugin": "^4.0.1",
-    "@typescript-eslint/parser": "^8.24.1",
-    "eslint": "^9.20.1",
-    "eslint-config-prettier": "^10.0.1",
-    "eslint-import-resolver-typescript": "^3.8.2",
+    "@eslint/compat": "^1.2.7",
+    "@stylistic/eslint-plugin": "^4.1.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^10.0.2",
+    "eslint-import-resolver-typescript": "^3.8.3",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-perfectionist": "^4.9.0",
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-react": "^7.37.4",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-unicorn": "^57.0.0",
-    "prettier": "^3.5.1",
+    "prettier": "^3.5.2",
     "typescript": "^5.7.3",
-    "typescript-eslint": "^8.24.1"
+    "typescript-eslint": "^8.25.0"
   }
 }

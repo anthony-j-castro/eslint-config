@@ -17,7 +17,7 @@ export default [
     files: [
       "index.js",
       "eslint.config.js",
-      "release.config.js",
+      "release.config.cjs",
       "rules/**/*.js",
     ],
     languageOptions: {
