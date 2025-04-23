@@ -1,6 +1,6 @@
 {
   "name": "@anthony-j-castro/eslint-config",
-  "version": "4.0.9",
+  "version": "4.0.10",
   "description": "Reusable ESLint config for React & TypeScript projects by @anthony-j-castro.",
   "private": true,
   "type": "module",
