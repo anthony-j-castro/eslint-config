@@ -1,11 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import minimist from "minimist";
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
-const README_PATH = path.join(__dirname, "../README.md");
+const README_PATH = path.join(import.meta.dirname, "../README.md");
 const INSTALL_SNIPPET_REGEX =
   /(?<=npm install --save-dev "https:\/\/github.com\/anthony-j-castro\/eslint-config\.git#semver:)\d+\.\d+\.\d+(?=")/g;
 
