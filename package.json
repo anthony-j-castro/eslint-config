@@ -30,7 +30,7 @@
     "@types/minimist": "1.2.5",
     "@types/node": "22.15.31",
     "@typescript-eslint/parser": "^8.34.0",
-    "conventional-changelog-conventionalcommits": "8.0.0",
+    "conventional-changelog-conventionalcommits": "9.0.0",
     "eslint": "^9.28.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-import-resolver-typescript": "^4.4.3",
