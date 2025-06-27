@@ -22,7 +22,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@anthony-j-castro/prettier-config": "github:anthony-j-castro/prettier-config#semver:1.1.1",
+    "@anthony-j-castro/prettier-config": "github:anthony-j-castro/prettier-config#semver:v1.1.2",
     "@semantic-release/exec": "7.1.0",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/npm": "12.0.1",
