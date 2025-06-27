@@ -25,7 +25,7 @@
     "@anthony-j-castro/prettier-config": "github:anthony-j-castro/prettier-config#semver:v1.1.2",
     "@semantic-release/exec": "7.1.0",
     "@semantic-release/git": "10.0.1",
-    "@semantic-release/npm": "12.0.1",
+    "@semantic-release/npm": "12.0.2",
     "@stylistic/eslint-plugin": "^4.2.0",
     "@types/minimist": "1.2.5",
     "@types/node": "22.15.33",
