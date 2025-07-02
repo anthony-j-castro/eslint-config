@@ -31,7 +31,7 @@
     "@types/node": "22.15.34",
     "@typescript-eslint/parser": "^8.35.0",
     "conventional-changelog-conventionalcommits": "8.0.0",
-    "eslint": "^9.30.0",
+    "eslint": "^9.30.1",
     "eslint-config-prettier": "^10.1.5",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.31.0",
@@ -50,7 +50,7 @@
   "peerDependencies": {
     "@stylistic/eslint-plugin": "^4.2.0",
     "@typescript-eslint/parser": "^8.35.0",
-    "eslint": "^9.30.0",
+    "eslint": "^9.30.1",
     "eslint-config-prettier": "^10.1.5",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.31.0",
