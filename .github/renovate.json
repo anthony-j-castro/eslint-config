@@ -1,17 +1,3 @@
 {
-  "extends": ["local>anthony-j-castro/renovate-config//repos/eslint-config"],
-  "packageRules": [
-    {
-      "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": ["typescript"],
-      "rangeStrategy": "bump",
-      "semanticCommitScope": "dev-deps"
-    },
-    {
-      "matchDepTypes": ["peerDependencies"],
-      "matchPackageNames": ["typescript"],
-      "rangeStrategy": "replace",
-      "semanticCommitScope": "dev-deps"
-    }
-  ]
+  "extends": ["local>anthony-j-castro/renovate-config//repos/eslint-config"]
 }
