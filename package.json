@@ -29,7 +29,7 @@
     "@stylistic/eslint-plugin": "^5.2.3",
     "@types/minimist": "1.2.5",
     "@types/node": "22.17.2",
-    "@typescript-eslint/parser": "^8.40.0",
+    "@typescript-eslint/parser": "^8.41.0",
     "conventional-changelog-conventionalcommits": "9.1.0",
     "eslint": "^9.34.0",
     "eslint-config-prettier": "^10.1.8",
@@ -45,11 +45,11 @@
     "semantic-release": "24.2.7",
     "tsx": "4.20.5",
     "typescript": "5.9.2",
-    "typescript-eslint": "^8.40.0"
+    "typescript-eslint": "^8.41.0"
   },
   "peerDependencies": {
     "@stylistic/eslint-plugin": "^5.2.3",
-    "@typescript-eslint/parser": "^8.40.0",
+    "@typescript-eslint/parser": "^8.41.0",
     "eslint": "^9.34.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.4",
@@ -61,6 +61,6 @@
     "eslint-plugin-unicorn": "^60.0.0",
     "prettier": "^3.6.2",
     "typescript": "^5",
-    "typescript-eslint": "^8.40.0"
+    "typescript-eslint": "^8.41.0"
   }
 }
