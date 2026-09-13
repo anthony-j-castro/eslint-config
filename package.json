@@ -8,6 +8,7 @@
   "scripts": {
     "build": "tsc -b",
     "lint": "npx eslint",
+    "postinstall": "tsc -b",
     "prettier": "prettier . --write",
     "prettier:ci": "prettier . --check",
     "typecheck": "tsc --noEmit",
