@@ -8,12 +8,11 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "tsconfig.json"
   ],
   "scripts": {
     "build": "tsc -b",
     "lint": "npx eslint",
-    "postinstall": "tsc -b",
+    "prepare": "npm run build",
     "prettier": "prettier . --write",
     "prettier:ci": "prettier . --check",
     "typecheck": "tsc --noEmit",
