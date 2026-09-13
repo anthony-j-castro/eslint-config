@@ -4,7 +4,11 @@
   "description": "Reusable ESLint config for React & TypeScript projects by @anthony-j-castro.",
   "private": true,
   "type": "module",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc -b",
     "lint": "npx eslint",
