@@ -9,6 +9,7 @@
     "lint": "npx eslint",
     "prettier": "prettier . --write",
     "prettier:ci": "prettier . --check",
+    "typecheck": "tsc --noEmit",
     "update-readme": "tsx ./scripts/update-readme.ts"
   },
   "keywords": [

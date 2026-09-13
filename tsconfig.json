@@ -4,7 +4,7 @@
     "esModuleInterop": true,
     "lib": ["esnext"],
     "module": "ESNext",
-    "moduleResolution": "node"
+    "moduleResolution": "bundler"
   },
-  "include": ["scripts"]
+  "include": ["scripts", "**/*.ts"]
 }
