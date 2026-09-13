@@ -4,8 +4,9 @@
   "description": "Reusable ESLint config for React & TypeScript projects by @anthony-j-castro.",
   "private": true,
   "type": "module",
-  "main": "index.ts",
+  "main": "index.js",
   "scripts": {
+    "build": "tsc -b",
     "lint": "npx eslint",
     "prettier": "prettier . --write",
     "prettier:ci": "prettier . --check",

@@ -4,7 +4,8 @@
     "esModuleInterop": true,
     "lib": ["esnext"],
     "module": "ESNext",
-    "moduleResolution": "bundler"
+    "moduleResolution": "bundler",
+    "outDir": "dist"
   },
-  "include": ["scripts", "**/*.ts"]
+  "include": ["index.ts"]
 }
